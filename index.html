@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>100 Receitas que Marcaram o MasterChef</title>
+<meta name="description" content="As 100 receitas mais famosas que passaram pelo MasterChef, com passo a passo ilustrado e troca do caro pelo barato.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- PIXEL / UTMIFY: colar aqui o script da UTMify desta oferta -->
+<style>
+/* Modelado da página de empratamento do materialseguro: mesma ordem de blocos e mesma paleta
+   (barra vermelha, hero cinza-escuro, seções creme, CTA verde, cartão escuro no plano completo). */
+:root{
+  --vermelho:#D32F2F; --vermelho2:#FF3B3B; --cinza:#4A4A4A; --escuro:#1F1F1F; --creme:#FCE9D8; --creme2:#F8DCC2;
+  --bege:#F4E8DC; --verde:#39B574; --verde-esc:#2E9A61; --menta:#EFFBF2; --menta-borda:#BFE7CF; --ouro:#E7B66F;
+  --amarelo:#FFE08A; --tinta:#2B2B2B; --suave:#5A524D; --fundo:#F7F7F7;
+  --h:"Montserrat",system-ui,sans-serif; --b:"Inter",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--b);color:var(--tinta);background:var(--fundo);line-height:1.5;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+.wrap{max-width:560px;margin:0 auto;padding:0 18px}
+h1,h2,h3{font-family:var(--h);font-weight:900;text-transform:uppercase;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:clamp(28px,7.6vw,40px);text-align:center;color:var(--tinta)}
+section{padding:56px 0}
+
+/* ornamento dos títulos */
+h2::after{content:"";display:block;width:64px;height:4px;border-radius:4px;margin:16px auto 0;background:linear-gradient(90deg,var(--ouro),#C9963E)}
+.problema h2::after{background:#fff}
+.garantia h2::after{margin-left:0}
+.selo-sec{display:block;text-align:center;font-weight:800;font-size:12.5px;letter-spacing:.18em;color:#C9963E;margin-bottom:10px;text-transform:uppercase}
+/* barra do topo */
+.topo{background:var(--vermelho);color:#fff;text-align:center;font-weight:800;font-size:14px;padding:10px 14px;text-transform:uppercase;letter-spacing:.02em}
+
+/* hero */
+.hero{background:radial-gradient(ellipse at 50% 38%,rgba(231,182,111,.22),transparent 60%),linear-gradient(180deg,#3E3E3E,#2C2C2C);color:#fff;padding:26px 0 44px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:url(assets/prato1.webp) center/cover;opacity:.07;filter:blur(2px)}
+.hero .wrap{position:relative}
+.selo{display:inline-block;background:var(--creme);color:var(--tinta);font-weight:700;font-size:13px;padding:7px 16px;border-radius:999px}
+.hero h1{font-size:clamp(28px,8.2vw,42px);margin:18px 0 12px;color:#fff}
+.hero h1 b{color:var(--ouro)}
+.hero .sub{font-size:17px;opacity:.95}
+.hero p.desc{font-size:16.5px;margin:22px 0 18px;opacity:.95}
+.checks{list-style:none;text-align:left;display:grid;gap:12px;margin:0 auto 26px}
+.checks li{display:flex;gap:10px;font-weight:700;color:var(--ouro);font-size:16px}
+.checks li::before{content:"✓";color:var(--verde);font-weight:900}
+
+/* mockup montado em CSS: capa na frente, páginas atrás e celular */
+.mock{position:relative;width:100%;max-width:440px;aspect-ratio:1/0.92;margin:22px auto 0}
+.mock .pg{position:absolute;width:44%;border-radius:6px;box-shadow:0 10px 28px rgba(0,0,0,.45);background:#fff}
+.mock .pg.a{left:2%;top:10%;transform:rotate(-9deg)}
+.mock .pg.b{right:2%;top:8%;transform:rotate(8deg)}
+.mock .capa{position:absolute;left:50%;top:0;width:50%;transform:translateX(-50%) perspective(900px) rotateY(-14deg);border-radius:3px 7px 7px 3px;box-shadow:-10px 0 0 -2px #2a1d10,0 22px 44px rgba(0,0,0,.6);z-index:3}
+.mock .cel{position:absolute;left:3%;bottom:0;width:30%;aspect-ratio:9/18.5;background:#111;border-radius:16px;padding:5px;box-shadow:0 12px 30px rgba(0,0,0,.5);z-index:4}
+.mock .cel img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:12px}
+.mock .tag{position:absolute;right:2%;bottom:6%;z-index:5;background:var(--verde);color:#fff;font-family:var(--h);font-weight:900;font-size:13px;padding:8px 12px;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,.35);transform:rotate(-4deg);text-transform:uppercase}
+
+/* CTA */
+.cta{display:block;width:100%;background:var(--verde);color:#fff;text-decoration:none;font-weight:800;font-size:18px;text-transform:uppercase;text-align:center;padding:20px 18px;border-radius:999px;box-shadow:0 10px 26px rgba(57,181,116,.45);animation:pulsa 1.8s ease-in-out infinite;border:0;cursor:pointer;font-family:var(--b)}
+.cta:hover{background:var(--verde-esc)}
+@keyframes pulsa{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+@media (prefers-reduced-motion:reduce){.cta{animation:none}}
+.cta-nota{font-size:13px;margin-top:12px;opacity:.9;text-align:center}
+
+/* receitas que você vai receber */
+.amostras{background:var(--creme)}
+.trilho{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:26px 18px 10px;scrollbar-width:none}
+.trilho::-webkit-scrollbar{display:none}
+.trilho img{flex:0 0 72%;max-width:330px;scroll-snap-align:center;border-radius:8px;box-shadow:0 10px 26px rgba(0,0,0,.18);background:#fff}
+.dica-arraste{text-align:center;font-size:13px;color:var(--suave);margin-top:6px}
+
+/* o que cada receita tem */
+.itens{display:grid;gap:14px;margin-top:30px}
+.item{display:flex;gap:16px;align-items:center;background:#fff;border-radius:16px;padding:16px 18px;box-shadow:0 6px 20px rgba(60,35,15,.08);border-left:4px solid var(--ouro)}
+.item .ic{flex:0 0 52px;height:52px;border-radius:50%;background:linear-gradient(135deg,var(--creme),var(--creme2));display:grid;place-items:center;font-size:25px;box-shadow:inset 0 0 0 2px #fff,0 3px 8px rgba(0,0,0,.08)}
+.item p{font-size:15.5px}
+.item p b{display:block}
+
+/* faixa vermelha do problema */
+.problema{background:var(--vermelho);color:#fff;text-align:center}
+.problema h2{color:#fff}
+.problema p{margin:16px 0 22px;font-weight:600}
+.relogio{display:flex;justify-content:center;gap:16px;align-items:flex-start;margin-bottom:24px}
+.relogio div{font-family:var(--h);font-weight:900;font-size:44px;line-height:1}
+.relogio small{display:block;font-family:var(--b);font-size:11px;font-weight:700;letter-spacing:.1em;margin-top:6px}
+.relogio span{font-family:var(--h);font-weight:900;font-size:40px;line-height:1}
+
+/* ideal para você */
+.ideais{display:grid;gap:14px;margin-top:30px}
+.ideal{background:var(--menta);border:1px solid var(--menta-borda);border-radius:16px;padding:18px 20px 18px 50px;position:relative}
+.ideal::before{content:"✓";position:absolute;left:20px;top:17px;color:var(--verde);font-weight:900;font-size:18px}
+.ideal b{font-family:var(--h);font-weight:800;text-transform:uppercase;font-size:15.5px;display:block;margin-bottom:6px}
+.ideal span{color:var(--suave);font-size:15px}
+.pratos{display:flex;gap:12px;overflow:hidden;margin-top:32px}
+.pratos .fila{display:flex;gap:12px;animation:rola 40s linear infinite}
+.pratos img{width:160px;height:160px;object-fit:cover;border-radius:50%;flex:0 0 auto;border:5px solid #fff;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+@keyframes rola{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.pratos .fila{animation:none}}
+
+/* tudo o que você recebe */
+.pacote{background:var(--fundo)}
+.cartao-escuro{background:var(--cinza);color:#fff;border-radius:24px;padding:30px 22px;margin-top:28px;text-align:center}
+.pilula{display:inline-block;background:var(--verde);color:#fff;font-weight:800;font-size:14px;padding:9px 18px;border-radius:999px;text-transform:uppercase}
+.cartao-escuro h3{font-size:24px;margin:16px 0 10px}
+.lista{list-style:none;text-align:left;margin-top:20px}
+.lista li{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:15.5px}
+.lista li::before{content:"✓";color:var(--verde);font-weight:900}
+.lista li.bonus::before{content:"🎁"}
+
+/* bônus */
+.bonus-intro{text-align:center}
+.bonus-intro p{font-family:var(--h);font-style:italic;font-weight:800;font-size:22px;color:var(--suave);margin:10px 0 16px}
+.pilula.verm{background:var(--vermelho2)}
+.bonus{background:var(--creme);border-radius:22px;overflow:hidden;margin-top:24px;position:relative;box-shadow:0 12px 30px rgba(60,35,15,.12)}
+.bonus .num{position:absolute;right:14px;top:14px;z-index:2;box-shadow:0 4px 10px rgba(0,0,0,.2);background:var(--amarelo);font-weight:800;font-size:12px;padding:4px 10px;border-radius:8px}
+.bonus .capa-b{background:var(--creme2);padding:26px 0;display:grid;place-items:center}
+.livro{width:150px;aspect-ratio:3/4.2;border-radius:4px 10px 10px 4px;color:#fff;padding:14px 12px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:-6px 8px 0 rgba(0,0,0,.15),0 14px 30px rgba(0,0,0,.35);position:relative;overflow:hidden;text-align:center}
+.livro::before{content:"";position:absolute;left:0;top:0;bottom:0;width:10px;background:rgba(0,0,0,.25)}
+.livro .gratis{font-size:10px;font-weight:800;background:#fff;color:var(--tinta);border-radius:6px;padding:2px 6px;align-self:center}
+.livro strong{font-family:var(--h);font-weight:900;font-size:15px;line-height:1.05;text-transform:uppercase}
+.livro img{width:84px;height:84px;object-fit:cover;border-radius:50%;margin:0 auto;border:3px solid rgba(255,255,255,.85)}
+.bonus .img-b{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.bonus .txt{padding:22px 20px 24px}
+.bonus h3{font-size:19px;text-transform:none;font-weight:800}
+.bonus .txt p{color:var(--suave);margin:10px 0 16px;font-size:15px}
+.valor{display:inline-block;background:var(--escuro);color:#fff;font-weight:800;font-size:14px;padding:9px 18px;border-radius:999px}
+.valor s{color:var(--vermelho2)}
+.valor em{font-style:normal;color:#51FF00}
+
+/* planos */
+.planos{background:var(--fundo)}
+.ultima{display:block;width:fit-content;margin:0 auto 18px;background:var(--vermelho);color:#fff;font-weight:800;font-size:14px;padding:10px 20px;border-radius:999px;text-transform:uppercase}
+.traco{width:90px;height:3px;background:var(--tinta);margin:16px auto 0;border-radius:2px}
+.plano{border-radius:24px;padding:28px 22px 24px;margin-top:28px;position:relative;text-align:center;overflow-x:clip}
+.plano h3{font-size:26px}
+.plano.basico{background:var(--bege)}
+.plano.completo{background:radial-gradient(ellipse at 50% 0%,rgba(231,182,111,.18),transparent 55%),var(--escuro);color:#fff;margin-top:46px;box-shadow:0 0 0 3px var(--verde),0 24px 50px rgba(0,0,0,.35)}
+.plano .mais{position:absolute;left:50%;top:-18px;transform:translateX(-50%);background:var(--verde);color:#fff;font-weight:800;font-size:14px;padding:8px 18px;border-radius:999px;white-space:nowrap}
+.plano .rec{font-weight:700;text-align:left;margin-top:20px}
+.plano ul{list-style:none;text-align:left;margin-top:10px}
+.plano li{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid rgba(0,0,0,.08);font-size:15.5px}
+.plano.completo li{border-color:rgba(255,255,255,.1);font-weight:700}
+.plano li::before{content:"✓";color:var(--verde);font-weight:900}
+.plano li.b::before{content:"🎁"}
+.de{margin-top:22px;color:var(--vermelho2);font-weight:700;font-size:15px}
+.de s{opacity:.9}
+.preco{font-family:var(--h);font-weight:900;font-size:54px;color:var(--verde);line-height:1.05}
+.parc{font-size:15px;opacity:.85}
+.eco{font-size:14.5px;margin:8px 0 20px;font-weight:600}
+.eco::before{content:"●";color:var(--verde);margin-right:6px}
+.noventa{background:#FFD54F;color:var(--tinta);font-weight:700;font-size:14px;padding:12px;margin:22px -22px -24px;border-radius:0 0 24px 24px}
+.pagamentos{margin-top:16px;font-size:12px;opacity:.7;letter-spacing:.05em}
+.mock-mini{position:relative;width:240px;height:200px;margin:18px auto 0}
+.mock-mini .capa{position:absolute;left:50%;top:0;width:130px;transform:translateX(-50%);border-radius:5px;box-shadow:0 12px 28px rgba(0,0,0,.45);z-index:2}
+.mock-mini .pg{position:absolute;top:22px;width:105px;border-radius:5px;box-shadow:0 8px 20px rgba(0,0,0,.35)}
+.mock-mini .pg.a{left:0;transform:rotate(-8deg)}.mock-mini .pg.b{right:0;transform:rotate(8deg)}
+.mock-comp{position:relative;width:100%;max-width:440px;aspect-ratio:1/0.66;margin:14px auto 10px}
+.mock-comp img{position:absolute;left:50%;bottom:7%;width:32%;border-radius:3px 6px 6px 3px;transform-origin:50% 100%;box-shadow:0 14px 30px rgba(0,0,0,.55)}
+.mock-comp .b1{transform:translateX(-50%) translateX(-100%) rotate(-20deg);z-index:1}
+.mock-comp .b2{transform:translateX(-50%) translateX(-52%) rotate(-10deg);z-index:2}
+.mock-comp .b3{transform:translateX(-50%) translateX(52%) rotate(10deg);z-index:2}
+.mock-comp .b4{transform:translateX(-50%) translateX(100%) rotate(20deg);z-index:1}
+.mock-comp .capa{width:42%;bottom:0;transform:translateX(-50%);z-index:5;box-shadow:0 22px 46px rgba(0,0,0,.7),0 0 0 2px rgba(231,182,111,.6)}
+.mock-comp .mais-b{position:absolute;right:0;top:0;z-index:6;background:var(--vermelho2);color:#fff;font-family:var(--h);font-weight:900;font-size:13px;padding:8px 12px;border-radius:10px;transform:rotate(6deg);box-shadow:0 8px 18px rgba(0,0,0,.4)}
+.aviso-verde{display:flex;gap:14px;text-align:left;background:var(--menta);border:1px solid var(--menta-borda);border-radius:18px;padding:18px;margin-top:22px}
+.aviso-verde .ok{flex:0 0 38px;height:38px;border-radius:50%;background:var(--verde);color:#fff;display:grid;place-items:center;font-weight:900}
+.aviso-verde b{font-family:var(--h);text-transform:uppercase;font-size:15px;font-weight:800}
+.aviso-verde p{color:var(--suave);font-size:14.5px;margin-top:6px}
+.seguro{text-align:center;font-size:13.5px;color:var(--suave);margin-top:16px}
+
+/* garantia */
+.garantia{background:#fff;text-align:left}
+.medalha{width:190px;height:190px;margin:0 auto 26px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#F6D77A,#C9A03A 60%,#9C7A22);display:grid;place-items:center;box-shadow:0 0 0 10px #2D2D2D,0 0 0 14px #C9A03A,0 18px 40px rgba(0,0,0,.25)}
+.medalha div{width:132px;height:132px;border-radius:50%;background:#2D2D2D;color:#E9C46A;display:grid;place-items:center;text-align:center;font-family:var(--h);font-weight:900;line-height:.9}
+.medalha div span{font-size:58px;display:block}.medalha div small{font-size:22px}
+.garantia h2{text-align:left}
+.garantia ul{list-style:none;margin:16px 0}
+.garantia li{padding:6px 0 6px 22px;position:relative}
+.garantia li::before{content:"";position:absolute;left:0;top:13px;width:10px;height:10px;border-radius:50%;background:var(--vermelho2)}
+
+/* acesso */
+.passos{display:grid;gap:34px;margin:34px 0 32px;text-align:center}
+.passo .ic{font-size:46px}
+.passo h3{font-size:19px;text-transform:none;font-weight:800;margin:8px 0 6px}
+.passo p{color:var(--suave);font-size:15px}
+.passo ul{list-style:none;margin-top:10px;font-size:14px;display:grid;gap:4px}
+.passo li::before{content:"✓ ";color:var(--verde);font-weight:900}
+
+/* FAQ */
+.faq details{background:#fff;border-radius:14px;margin-top:12px;box-shadow:0 3px 12px rgba(0,0,0,.05)}
+.faq summary{list-style:none;cursor:pointer;padding:18px 48px 18px 18px;font-weight:700;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:18px;top:14px;font-size:24px;color:var(--verde);font-weight:700}
+.faq details[open] summary::after{content:"–"}
+.faq details p{padding:0 18px 18px;color:var(--suave)}
+
+footer{background:var(--escuro);color:#bbb;text-align:center;font-size:12.5px;padding:30px 18px 40px;line-height:1.7}
+footer b{color:#fff}
+
+/* popup do plano básico */
+.popup{position:fixed;inset:0;background:rgba(0,0,0,.72);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}
+.popup.aberto{display:flex}
+.popup .caixa{background:#fff;border-radius:22px;max-width:420px;width:100%;padding:26px 22px 22px;text-align:center;position:relative;animation:entra .3s ease-out}
+@keyframes entra{from{transform:translateY(30px) scale(.96);opacity:0}}
+.popup .fechar{position:absolute;right:12px;top:8px;background:none;border:0;font-size:28px;color:#999;cursor:pointer}
+.popup .alerta{background:var(--vermelho);color:#fff;font-weight:800;font-size:13px;padding:7px 14px;border-radius:999px;display:inline-block;text-transform:uppercase}
+.popup h3{font-size:24px;margin:14px 0 8px}
+.popup p{color:var(--suave);font-size:15px}
+.popup .de{margin-top:14px}
+.popup .preco{font-size:48px}
+.popup .nao{display:block;margin-top:14px;color:#888;font-size:14px;text-decoration:underline}
+</style>
+</head>
+<body>
+
+<div class="topo">⚡ Oferta especial disponível apenas hoje <span class="hoje"></span></div>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="selo">🔒 Compra 100% Segura e Protegida</span>
+    <h1>As <b>100 receitas</b> que marcaram o MasterChef</h1>
+    <p class="sub">Passo a passo ilustrado para fazer os pratos do programa em casa</p>
+
+    <div class="mock" aria-hidden="true">
+      <img class="pg a" src="assets/pag2.webp" alt="">
+      <img class="pg b" src="assets/passo-81.webp" alt="">
+      <img class="capa" src="assets/capa.webp" alt="">
+      <div class="cel"><img src="assets/pag1.webp" alt=""></div>
+      <div class="tag">100 receitas</div>
+    </div>
+
+    <p class="desc">Veja o prato pronto, os ingredientes com foto e quantidade, a troca do caro pelo barato e o passo a passo em 10 fotos, na ordem certa. Das entradas aos pratos principais, do fácil ao nível chef.</p>
+
+    <ul class="checks">
+      <li>Receita completa: quantidade, tempo, rendimento e nível</li>
+      <li>Passo a passo ilustrado em 10 fotos</li>
+      <li>Troque o caro pelo barato em toda receita</li>
+      <li>O erro que elimina, para você não errar</li>
+      <li>Das receitas fáceis às de chef</li>
+    </ul>
+
+    <a class="cta ir-planos" href="#planos">Quero as 100 receitas</a>
+    <p class="cta-nota">📲 Você recebe tudo na hora, direto no seu WhatsApp e e-mail.</p>
+  </div>
+</header>
+
+<section class="amostras">
+  <div class="wrap"><span class="selo-sec">Por dentro do guia</span><h2>Veja as receitas que você vai receber</h2></div>
+  <div class="trilho" id="trilho">
+    <img src="assets/pag1.webp" alt="Receita: Filé Wellington ao Vinho Tinto" loading="lazy">
+    <img src="assets/passo-81.webp" alt="Passo a passo do Filé Wellington" loading="lazy">
+    <img src="assets/pag2.webp" alt="Receita: Espaguete à Carbonara" loading="lazy">
+    <img src="assets/pag3.webp" alt="Receita: Feijoada do MasterChef" loading="lazy">
+    <img src="assets/pag4.webp" alt="Receita: Tournedos Rossini" loading="lazy">
+    <img src="assets/pag5.webp" alt="Receita: Bœuf Bourguignon" loading="lazy">
+    <img src="assets/passo-01.webp" alt="Passo a passo do Bolovo" loading="lazy">
+    <img src="assets/pag6.webp" alt="Receita: Pato no Tucupi" loading="lazy">
+    <img src="assets/pag8.webp" alt="Receita: Risoto Negro de Lula" loading="lazy">
+    <img src="assets/pag9.webp" alt="Receita: Sofiatelli de Camarão" loading="lazy">
+    <img src="assets/pag10.webp" alt="Receita: Steak Tartare" loading="lazy">
+  </div>
+  <p class="dica-arraste">arraste para o lado →</p>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="selo-sec">2 páginas por receita</span><h2>Cada receita possui:</h2>
+    <div class="itens">
+      <div class="item"><div class="ic">🍽️</div><p><b>Foto do prato pronto</b>como ele deve ficar no final</p></div>
+      <div class="item"><div class="ic">⏱️</div><p><b>Rendimento, tempo e nível</b>para você saber o tamanho do desafio antes de começar</p></div>
+      <div class="item"><div class="ic">🥩</div><p><b>Ingredientes com foto e quantidade</b>nada de "a gosto" no que importa</p></div>
+      <div class="item"><div class="ic">💸</div><p><b>Troque o caro pelo barato</b>4 substituições de mercado comum em cada receita</p></div>
+      <div class="item"><div class="ic">📸</div><p><b>Passo a passo em 10 fotos</b>cada etapa na ordem certa, para conferir com a sua panela</p></div>
+      <div class="item"><div class="ic">⚠️</div><p><b>O erro que elimina</b>o defeito clássico do prato e como evitar</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="problema">
+  <div class="wrap">
+    <h2>Quantas vezes você viu um prato no MasterChef e não fez por não ter a receita?</h2>
+    <p>Aproveite a oferta por tempo limitado.</p>
+    <div class="relogio" aria-live="off"><div class="min">15<small>MINUTOS</small></div><span>:</span><div class="seg">00<small>SEGUNDOS</small></div></div>
+    <a class="cta ir-planos" href="#planos">Quero acessar agora</a>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="selo-sec">Para quem é</span><h2>Este material é ideal para você que deseja</h2>
+    <div class="ideais">
+      <div class="ideal"><b>Fazer em casa os pratos do programa</b><span>Com a receita inteira escrita, e não só o prato pronto na TV.</span></div>
+      <div class="ideal"><b>Cozinhar sem medo de errar</b><span>Cada passo tem foto, e o erro clássico de cada prato vem avisado.</span></div>
+      <div class="ideal"><b>Gastar menos no mercado</b><span>As trocas do caro pelo barato já vêm do lado de cada receita.</span></div>
+      <div class="ideal"><b>Impressionar quem vem comer</b><span>Prato de restaurante na mesa da sua casa, no almoço de domingo ou numa data especial.</span></div>
+      <div class="ideal"><b>Evoluir na cozinha</b><span>Comece pelas receitas fáceis e vá subindo até as de chef.</span></div>
+      <div class="ideal"><b>Sair do arroz com ovo de sempre</b><span>Tenha 100 opções novas para variar o cardápio da semana.</span></div>
+    </div>
+  </div>
+  <div class="pratos" aria-hidden="true"><div class="fila" id="fila"></div></div>
+</section>
+
+<section class="pacote">
+  <div class="wrap">
+    <h2>Tudo o que você vai receber</h2>
+    <div class="cartao-escuro">
+      <span class="pilula">⚡ Acesso imediato</span>
+      <h3>Tudo foi organizado para ser simples de seguir</h3>
+      <p>Você escolhe a receita e já pode começar na mesma hora.</p>
+      <div class="mock" aria-hidden="true">
+        <img class="pg a" src="assets/pag3.webp" alt="">
+        <img class="pg b" src="assets/pag4.webp" alt="">
+        <img class="capa" src="assets/capa.webp" alt="">
+        <div class="cel"><img src="assets/passo-01.webp" alt=""></div>
+      </div>
+      <ul class="lista">
+        <li>As 100 receitas que marcaram o MasterChef</li>
+        <li>35 entradas e 65 pratos principais</li>
+        <li>Passo a passo ilustrado em 10 fotos por receita</li>
+        <li>400 trocas do caro pelo barato</li>
+        <li>Nível marcado: do fácil ao chef</li>
+        <li>Acesso no celular, para levar na cozinha</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="bonus-intro">
+      <h2>E não para por aí, tem mais!</h2>
+      <p>No plano completo você também recebe…</p>
+      <span class="pilula verm">🎁 4 bônus exclusivos</span>
+    </div>
+
+    <div class="bonus">
+      <span class="num">BÔNUS #1</span>
+      <img class="img-b" src="assets/bonus1.webp" alt="Bônus 1" loading="lazy">
+      <div class="txt"><h3>Bônus #1 — 30 Sobremesas do MasterChef</h3><p>As sobremesas que fizeram sucesso no programa, no mesmo formato: foto, ingredientes, troca do caro pelo barato e passo a passo ilustrado.</p><span class="valor">Valor: <s>R$27</s> <em>GRÁTIS</em></span></div>
+    </div>
+
+    <div class="bonus">
+      <span class="num">BÔNUS #2</span>
+      <img class="img-b" src="assets/bonus2.webp" alt="Bônus 2" loading="lazy">
+      <div class="txt"><h3>Bônus #2 — Lista de Compras das 100 Receitas</h3><p>A lista de mercado de cada receita, pronta para abrir no celular na hora da compra. Você não esquece nada e não compra o que não vai usar.</p><span class="valor">Valor: <s>R$17</s> <em>GRÁTIS</em></span></div>
+    </div>
+
+    <div class="bonus">
+      <span class="num">BÔNUS #3</span>
+      <img class="img-b" src="assets/bonus3.webp" alt="Bônus 3" loading="lazy">
+      <div class="txt"><h3>Bônus #3 — Guia de Temperos do Chef</h3><p>Quais temperos combinam com carne, frango, peixe e massa, e como montar os seus próprios temperos caseiros para dar sabor de restaurante a qualquer prato.</p><span class="valor">Valor: <s>R$19</s> <em>GRÁTIS</em></span></div>
+    </div>
+
+    <div class="bonus">
+      <span class="num">BÔNUS #4</span>
+      <img class="img-b" src="assets/bonus4.webp" alt="Bônus 4" loading="lazy">
+      <div class="txt"><h3>Bônus #4 — 10 Cardápios Prontos para Receber</h3><p>Combinações de entrada e prato principal do livro para almoço de domingo, aniversário e jantar a dois, com a ordem de preparo para tudo ficar pronto junto.</p><span class="valor">Valor: <s>R$19</s> <em>GRÁTIS</em></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="planos" id="planos">
+  <div class="wrap">
+    <span class="ultima">🔥 Última chance — oferta termina hoje</span>
+    <h2>Escolha a opção ideal para você</h2>
+    
+
+    <div class="plano basico">
+      <h3>Plano Básico</h3>
+      <div class="mock-mini" aria-hidden="true"><img class="pg a" src="assets/pag2.webp" alt=""><img class="pg b" src="assets/pag5.webp" alt=""><img class="capa" src="assets/capa.webp" alt=""></div>
+      <p class="rec">Você recebe:</p>
+      <ul>
+        <li>As 100 receitas que marcaram o MasterChef</li>
+        <li>Passo a passo ilustrado em 10 fotos</li>
+        <li>Troque o caro pelo barato</li>
+        <li>O erro que elimina em cada receita</li>
+        <li>Acesso imediato após a compra</li>
+      </ul>
+      <p class="de">de <s>R$27,90</s> por:</p>
+      <div class="preco">R$ 10,00</div>
+      <p class="parc">pagamento único</p>
+      <p class="eco">Você economiza <b>R$17,90</b></p>
+      <button class="cta" id="btn-basico" type="button">Quero o plano básico</button>
+      <div class="noventa">92% das pessoas aproveitam o plano abaixo 👇</div>
+    </div>
+
+    <div class="plano completo">
+      <span class="mais">⚡ MAIS VENDIDO</span>
+      <h3>Plano Completo</h3>
+      <div class="mock-comp" aria-hidden="true"><img class="b1" src="assets/capa-b1.webp" alt=""><img class="b4" src="assets/capa-b4.webp" alt=""><img class="b2" src="assets/capa-b2.webp" alt=""><img class="b3" src="assets/capa-b3.webp" alt=""><img class="capa" src="assets/capa.webp" alt=""><span class="mais-b">+4 BÔNUS</span></div>
+      <ul>
+        <li>As 100 receitas que marcaram o MasterChef</li>
+        <li class="b">Bônus: 30 Sobremesas do MasterChef</li>
+        <li class="b">Bônus: Lista de Compras das 100 Receitas</li>
+        <li class="b">Bônus: Guia de Temperos do Chef</li>
+        <li class="b">Bônus: 10 Cardápios Prontos para Receber</li>
+      </ul>
+      <p class="de">de <s>R$69,90</s> por:</p>
+      <div class="preco">R$ 24,90</div>
+      <p class="parc">ou em até 3x no cartão</p>
+      <p class="eco">Você economiza <b>R$45,00</b></p>
+      <a class="cta checkout" data-link="completo" href="#">Quero o plano completo</a>
+      <p class="pagamentos">PIX · CARTÃO · COMPRA SEGURA</p>
+    </div>
+
+    <div class="aviso-verde"><div class="ok">✓</div><div><b>Uma única receita já pode mudar o seu próximo almoço de domingo.</b><p>Abra, escolha o prato e siga as fotos, com o que você encontra no mercado.</p></div></div>
+    <p class="seguro">🔒 Compra 100% segura e garantida.</p>
+  </div>
+</section>
+
+<section class="garantia">
+  <div class="wrap">
+    <div class="medalha"><div><span>7</span><small>DIAS</small></div></div>
+    <h2>Garantia de 7 dias — zero risco pra você</h2>
+    <p style="margin-top:16px"><b>Isso significa que,</b> a qualquer momento, se você achar que:</p>
+    <ul>
+      <li>as receitas não fazem sentido para a sua cozinha,</li>
+      <li>o material não atende o que você esperava,</li>
+      <li>ou simplesmente não quiser continuar,</li>
+    </ul>
+    <p>Você pode pedir o reembolso dentro de 7 dias, sem burocracia. O risco fica todo do nosso lado.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Como é o acesso</h2>
+    <p style="text-align:center;letter-spacing:.2em;font-size:12px;font-weight:700;color:var(--suave);margin-top:10px">(4 PASSOS SIMPLES PARA COMEÇAR A COZINHAR)</p>
+    <div class="passos">
+      <div class="passo"><div class="ic">🛒</div><h3>Conclua sua compra</h3><p>Depois do pagamento, o acesso é liberado automaticamente.</p><ul><li>Receba um e-mail com o link</li><li>Acesse pelo WhatsApp</li></ul></div>
+      <div class="passo"><div class="ic">📱</div><h3>Abra o guia</h3><p>No celular, no tablet ou no computador.</p><ul><li>Escolha a receita</li><li>Veja o nível e o tempo</li></ul></div>
+      <div class="passo"><div class="ic">🛍️</div><h3>Vá ao mercado</h3><p>Com os ingredientes e as trocas do caro pelo barato na mão.</p></div>
+      <div class="passo"><div class="ic">👨‍🍳</div><h3>Cozinhe e sirva</h3><p>Siga as 10 fotos do passo a passo e evite o erro que elimina.</p></div>
+    </div>
+    <a class="cta ir-planos" href="#planos">Quero acessar agora</a>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <h2>Perguntas frequentes</h2>
+    <details><summary>Como recebo o material?</summary><p>Logo depois do pagamento você recebe o acesso no e-mail e no WhatsApp. É automático.</p></details>
+    <details><summary>É um livro físico?</summary><p>Não. É um guia digital, para abrir no celular, tablet ou computador. Se quiser, pode imprimir.</p></details>
+    <details><summary>Preciso saber cozinhar?</summary><p>Não. Toda receita vem com o nível marcado, e há várias fáceis para começar. Cada passo tem foto para você conferir.</p></details>
+    <details><summary>Os ingredientes são caros?</summary><p>Cada receita traz 4 trocas do caro pelo barato, com ingredientes de mercado comum.</p></details>
+    <details><summary>Tem sobremesas?</summary><p>As 100 receitas são salgadas, entre entradas e pratos principais. As sobremesas vêm como bônus no plano completo.</p></details>
+    <details><summary>Este é um material oficial do programa?</summary><p>Não. É um guia independente com receitas que passaram pelo programa, sem vínculo com a Band ou com os produtores do MasterChef.</p></details>
+    <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. É só pedir o reembolso.</p></details>
+  </div>
+</section>
+
+<footer>
+  <p><b>100 Receitas que Marcaram o MasterChef</b> · guia não oficial</p>
+  <p>Este material é independente e não tem vínculo com a Band, a Banijay ou o programa MasterChef. As marcas citadas pertencem aos seus donos.</p>
+  <p>Este site não faz parte do Facebook nem da Meta.</p>
+  <p>Atendimento de segunda a sexta, das 9h às 18h.</p>
+  <p>© <span class="ano"></span> Todos os direitos reservados.</p>
+</footer>
+
+<div class="popup" id="popup" role="dialog" aria-modal="true" aria-labelledby="pop-t">
+  <div class="caixa">
+    <button class="fechar" type="button" aria-label="Fechar">×</button>
+    <span class="alerta">⚠️ Espera! Oferta única</span>
+    <h3 id="pop-t">Leve o plano completo com desconto</h3>
+    <p>Por só mais um pouco você leva as 100 receitas <b>e os 4 bônus</b>: as 30 sobremesas, a lista de compras, o guia de temperos e os cardápios prontos.</p>
+    <p class="de">de <s>R$24,90</s> por:</p>
+    <div class="preco">R$ 16,90</div>
+    <a class="cta checkout" data-link="popup" href="#">Sim, quero o completo</a>
+    <a class="nao checkout" data-link="basico" href="#">Não, quero só o básico por R$ 10</a>
+  </div>
+</div>
+
+<script>
+// Links do checkout (Wiapy). Preencher depois de cadastrar o produto.
+var LINKS = {
+  basico: "#",    // R$ 10,00
+  completo: "#",  // R$ 24,90
+  popup: "#",     // R$ 16,90 (popup do básico)
+  promo: "/promo" // página do back redirect (R$ 8,90)
+};
+
+// passa as UTMs da página para o checkout
+function comUtm(u){
+  if(!u || u === "#") return u;
+  var q = location.search.replace(/^\?/, "");
+  return q ? u + (u.indexOf("?") < 0 ? "?" : "&") + q : u;
+}
+document.querySelectorAll("a.checkout").forEach(function(a){
+  a.href = comUtm(LINKS[a.dataset.link]);
+  a.addEventListener("click", function(){ window.__indoParaCheckout = true; });
+});
+
+// data de hoje na barra do topo e ano no rodapé
+var d = new Date();
+document.querySelector(".hoje").textContent = String(d.getDate()).padStart(2,"0") + "/" + String(d.getMonth()+1).padStart(2,"0") + "/" + d.getFullYear();
+document.querySelector(".ano").textContent = d.getFullYear();
+
+// cronômetro de 15 minutos
+var fim = Date.now() + 15*60*1000;
+setInterval(function(){
+  var r = Math.max(0, fim - Date.now()), m = Math.floor(r/60000), s = Math.floor(r/1000)%60;
+  document.querySelector(".relogio .min").firstChild.textContent = String(m).padStart(2,"0");
+  document.querySelector(".relogio .seg").firstChild.textContent = String(s).padStart(2,"0");
+}, 1000);
+
+// rolagem suave até os planos
+document.querySelectorAll(".ir-planos").forEach(function(a){
+  a.addEventListener("click", function(e){ e.preventDefault(); document.getElementById("planos").scrollIntoView({behavior:"smooth", block:"start"}); });
+});
+
+// popup do plano básico
+var pop = document.getElementById("popup");
+document.getElementById("btn-basico").addEventListener("click", function(){ pop.classList.add("aberto"); });
+pop.querySelector(".fechar").addEventListener("click", function(){ pop.classList.remove("aberto"); });
+pop.addEventListener("click", function(e){ if(e.target === pop) pop.classList.remove("aberto"); });
+
+// faixa de pratos rolando (a lista duplicada faz o laço sem emenda)
+var fila = document.getElementById("fila"), html = "";
+[1,2,3,4,5,6,7,8,10,11,12].forEach(function(i){ html += '<img src="assets/prato' + i + '.webp" alt="" loading="lazy">'; });
+fila.innerHTML = html + html;
+
+// carrossel das receitas anda sozinho até a pessoa tocar
+var trilho = document.getElementById("trilho"), parado = false;
+trilho.addEventListener("pointerdown", function(){ parado = true; });
+setInterval(function(){
+  if (parado) return;
+  var passo = trilho.querySelector("img").offsetWidth + 14;
+  if (trilho.scrollLeft + trilho.clientWidth >= trilho.scrollWidth - 5) trilho.scrollTo({left:0, behavior:"smooth"});
+  else trilho.scrollBy({left:passo, behavior:"smooth"});
+}, 3000);
+
+// back redirect: quem volta sem ir ao checkout cai na oferta de R$ 7,90
+window.__indoParaCheckout = false;
+(function(){
+  var destino = comUtm(LINKS.promo);
+  history.pushState({}, "", location.href);
+  history.pushState({}, "", location.href);
+  window.addEventListener("popstate", function(){
+    if (!window.__indoParaCheckout) setTimeout(function(){ location.href = destino; }, 1);
+  });
+})();
+</script>
+</body>
+</html>
